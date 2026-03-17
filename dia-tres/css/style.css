@@ -1,0 +1,33 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main{
+    display: grid;
+    grid-template-areas: 
+    "parrafo1 parrafo1 parrafo2 parrafo2"
+    "parrafo1 parrafo1 parrafo2 parrafo2"
+    "parrafo3 parrafo3 imagen imagen"
+    "parrafo3 parrafo3 imagen imagen"
+    ;
+}
+.parrafo1{
+    grid-area: parrafo1;
+}
+.parrafo2{
+    grid-area: parrafo2;
+}
+.parrafo3{
+    grid-area: parrafo3;
+}
+.imagen{
+    grid-area: imagen;
+}
+
+.imagen img{
+    width: 100%;
+}
+
